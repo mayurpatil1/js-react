@@ -9,3 +9,4 @@ Each day gets its own folder with exercises + notes. Roadmap: see `ROADMAP.md`.
 - [x] Day 2 — Operators, conditionals, loops, functions (declarations vs expressions vs arrow), the `this` difference
 - [x] Day 3 — Array methods: map, filter, find, some/every, reduce
 - [x] Day 4 — Objects, destructuring, spread/rest operators
+- [x] Day 5 — Scope, closures, `this` in depth
