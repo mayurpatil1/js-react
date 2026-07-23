@@ -11,3 +11,4 @@ Each day gets its own folder with exercises + notes. Roadmap: see `ROADMAP.md`.
 - [x] Day 4 — Objects, destructuring, spread/rest operators
 - [x] Day 5 — Scope, closures, `this` in depth
 - [x] Day 6 — Promises, async/await, and the event loop
+- [x] Day 7 (Milestone) — Vanilla JS to-do app (DOM basics + Days 1-6)

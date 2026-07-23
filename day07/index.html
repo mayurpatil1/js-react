@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 7 — Vanilla JS To-Do App</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    margin: 0;
+  }
+  .app {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    padding: 28px;
+    width: 100%;
+    max-width: 420px;
+  }
+  h1 { margin: 0 0 4px; font-size: 1.4rem; }
+  p.subtitle { margin: 0 0 20px; color: #777; font-size: 0.85rem; }
+  form { display: flex; gap: 8px; margin-bottom: 18px; }
+  input[type="text"], #todo-input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+  button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  form button { background: #4f7cff; color: white; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  li .todo-text { flex: 1; cursor: text; }
+  li.completed .todo-text { text-decoration: line-through; color: #999; }
+  li .edit-input {
+    flex: 1;
+    padding: 4px 6px;
+    border: 1px solid #4f7cff;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+  }
+  .toggle-btn { background: #eef1f8; color: #333; }
+  .delete-btn { background: #ffecec; color: #c0392b; }
+  #todo-stats { margin-top: 14px; color: #888; font-size: 0.82rem; }
+  #clear-completed-btn { margin-top: 10px; background: #eef1f8; color: #333; }
+  #todo-filters { display: flex; gap: 6px; margin-bottom: 12px; }
+  .filter-btn { background: transparent; color: #777; }
+  .filter-btn.active { background: #eef1f8; color: #4f7cff; font-weight: 600; }
+</style>
+</head>
+<body>
+
+  <div class="app">
+    <h1>To-Do</h1>
+    <p class="subtitle">Day 7 milestone — vanilla JS, everything from Days 1–6</p>
+
+    <form id="todo-form">
+      <input id="todo-input" type="text" placeholder="What needs doing?" autocomplete="off" />
+      <button type="submit">Add</button>
+    </form>
+
+    <div id="todo-filters">
+      <button type="button" data-filter="all" class="filter-btn active">All</button>
+      <button type="button" data-filter="active" class="filter-btn">Active</button>
+      <button type="button" data-filter="completed" class="filter-btn">Completed</button>
+    </div>
+
+    <ul id="todo-list"></ul>
+    <p id="todo-stats"></p>
+    <button id="clear-completed-btn" type="button">Clear completed</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
