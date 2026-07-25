@@ -12,3 +12,5 @@ Each day gets its own folder with exercises + notes. Roadmap: see `ROADMAP.md`.
 - [x] Day 5 — Scope, closures, `this` in depth
 - [x] Day 6 — Promises, async/await, and the event loop
 - [x] Day 7 (Milestone) — Vanilla JS to-do app (DOM basics + Days 1-6)
+- [x] Day 8 — ES6 modules (import/export) & JS classes
+- [x] Day 9 — Error handling (try/catch/finally, custom errors) & JSON
