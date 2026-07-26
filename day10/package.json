@@ -1,0 +1,12 @@
+{
+  "name": "day10-npm-basics",
+  "version": "1.0.0",
+  "description": "Day 10 example package.json — see PACKAGE_JSON_GUIDE.md for a field-by-field explanation",
+  "main": "lesson.js",
+  "scripts": {
+    "start": "node lesson.js",
+    "greet": "node -e \"console.log('hello from an npm script, no dependency needed')\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

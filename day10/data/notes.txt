@@ -1,0 +1,2 @@
+Day 10 notes: npm, package.json, Vite
+logged via appendLog()
