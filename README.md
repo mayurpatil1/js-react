@@ -15,3 +15,5 @@ Each day gets its own folder with exercises + notes. Roadmap: see `ROADMAP.md`.
 - [x] Day 8 — ES6 modules (import/export) & JS classes
 - [x] Day 9 — Error handling (try/catch/finally, custom errors) & JSON
 - [x] Day 10 — Node basics, npm, package.json, and scaffolding with Vite
+- [x] Day 11 — TypeScript basics: type annotations, interfaces, inference
+- [x] Day 12 — Generics, union/intersection types, utility types (Partial, Pick, Omit)
