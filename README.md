@@ -17,3 +17,4 @@ Each day gets its own folder with exercises + notes. Roadmap: see `ROADMAP.md`.
 - [x] Day 10 — Node basics, npm, package.json, and scaffolding with Vite
 - [x] Day 11 — TypeScript basics: type annotations, interfaces, inference
 - [x] Day 12 — Generics, union/intersection types, utility types (Partial, Pick, Omit)
+- [x] Day 13 — Typing functions/objects deeply, tsconfig.json basics
